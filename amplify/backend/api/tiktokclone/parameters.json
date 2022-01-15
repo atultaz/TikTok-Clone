@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "tiktokclone",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtiktokcloned5f6575a",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-01-13T12:42:28.335Z"
+}

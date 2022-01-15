@@ -6,6 +6,7 @@ import Inbox from '../screens/Inbox';
 import Search from '../screens/Search';
 import Upload from '../screens/Upload';
 import Profile from '../screens/Profile';
+import Camera from '../screens/Camera';
 
 import Entypo from 'react-native-vector-icons/Entypo';
 import AntDesign from 'react-native-vector-icons/AntDesign';
@@ -45,7 +46,7 @@ const HomeBottomTabNavigator = () => {
       />
       <Tab.Screen
         name={'Upload'}
-        component={Upload}
+        component={Camera}
         options={{
           tabBarIcon: ({}) => (
             <Image
